@@ -37,9 +37,9 @@ param formRecognizerResourceGroupLocation string = location
 
 param formRecognizerSkuName string = 'S0'
 
-param gptDeploymentName string = 'davinci'
+param gptDeploymentName string = 'dream-td003'
 param gptModelName string = 'text-davinci-003'
-param chatGptDeploymentName string = 'chat'
+param chatGptDeploymentName string = 'dream-gpt-35-turbo'
 param chatGptModelName string = 'gpt-35-turbo'
 
 @description('Id of the user or app to assign application roles')
